@@ -1,0 +1,8 @@
+.noto-sans-georgian-deafult {
+  font-family: "Noto Sans Georgian", serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
