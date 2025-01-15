@@ -1,3 +1,7 @@
+#navbarContent{
+  padding: left;
+}
+
 .noto-sans-georgian-deafult {
   font-family: "Noto Sans Georgian", serif;
   font-optical-sizing: auto;
@@ -5,4 +9,18 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.mainNavbar{
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.navbar{
+  float: left;
+  position: relative;
+  left: -50%;
+}
+li{
+  display: inline;
 }
