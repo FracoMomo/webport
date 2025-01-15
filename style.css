@@ -1,8 +1,10 @@
-#navbarContent{
-  padding: left;
+* {
+  margin: 0;
+  padding: 0;
+  background: #161616;
 }
 
-.noto-sans-georgian-deafult {
+/*.noto-sans-georgian-deafult {
   font-family: "Noto Sans Georgian", serif;
   font-optical-sizing: auto;
   font-weight: 250;
@@ -10,17 +12,58 @@
   font-variation-settings:
     "wdth" 100;
 }
+*/
+.navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;  
+  top: 0px;
+  background: rgb(255, 127, 39);
+  background-blend-mode: darken;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  letter-spacing: 3px;
+}
 
-.mainNavbar{
-  float: left;
-  position: relative;
-  left: 50%;
+.navlist {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  background-color: inherit;
 }
-.navbar{
-  float: left;
-  position: relative;
-  left: -50%;
+
+.navlist li {
+  text-align: center;
 }
-li{
-  display: inline;
+
+.navlist li:first-child {
+  text-align: left;
+  margin-right: auto;
+}
+.navlist li:nth-child(2){
+  flex-grow: 1;
+  text-align: center
+  ;
+}
+.navlist li:last-child {
+  text-align: right;
+  margin-right: auto;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3 ease-in-out;
+}
+
+.navlist li a:hover {
+  color: #ffd700;
+}
+
+.homepage{
+  align-items: center;
 }
