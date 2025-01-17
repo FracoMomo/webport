@@ -64,5 +64,20 @@
 }
 
 .homepage {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#introfirst {
+  float: right;
+}
+
+.aboutMe {
+  display: block;
+}
+
+.aboutImage {
+  float: left;
 }
