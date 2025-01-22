@@ -34,20 +34,6 @@ body {
   align-items: center;
 }
 
-.navlist li:first-child {
-  text-align: left;
-  margin-left: 20px;
-}
-.navlist li:nth-child(2){
-  flex-grow: 1;
-  text-align: center;
-}
-
-.navlist li:last-child {
-  text-align: right;
-  margin-right: 20px;
-}
-
 .navlist li a {
   text-decoration: none;
   color: #0B0B0D;
