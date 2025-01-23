@@ -40,7 +40,15 @@ body {
   font-size: 14px;
 }
 
+/*
 #homeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+*/
+.landing {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,10 +56,8 @@ body {
 }
 
 #familyName {
-  top: 50%;
   text-align: center;
   font-size: 200px;
   color: white;
-  display: table-cell;
   vertical-align: middle;
 }
