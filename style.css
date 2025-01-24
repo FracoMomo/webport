@@ -12,6 +12,11 @@ body {
   background-attachment: fixed;
 }
 
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+
 .navbar {
   top: 0px;
   position: fixed;
@@ -26,6 +31,7 @@ body {
 }
 
 .navlist {
+  margin-left: 25px;
   margin-right: 25px;
   display: flex;
   flex-direction: row;
