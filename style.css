@@ -23,16 +23,23 @@ body {
   padding: 20px 0px;
   letter-spacing: 3px;
   top: 0px;
-  z-index: 1000;
   transition: top 0.3s;
 }
 
 .navlist {
   display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+/*
+.navlist {
+  display: flex;
   width: 100%;
   list-style: none;
   align-items: center;
-}
+}*/
 
 .navlist li a {
   text-decoration: none;
