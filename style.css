@@ -12,8 +12,13 @@ body {
   background-attachment: fixed;
 }
 
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+
 .navbar {
-  display: flex;
+  top: 0px;
   position: fixed;
   width: 100%;
   align-items: center;
@@ -22,24 +27,18 @@ body {
   color: rgb(0, 0, 0);
   padding: 20px 0px;
   letter-spacing: 3px;
-  top: 0px;
   transition: top 0.3s;
 }
 
 .navlist {
+  margin-left: 25px;
+  margin-right: 25px;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   list-style-type: none;
-  justify-content: center;
 }
-
-/*
-.navlist {
-  display: flex;
-  width: 100%;
-  list-style: none;
-  align-items: center;
-}*/
 
 .navlist li a {
   text-decoration: none;
@@ -49,16 +48,27 @@ body {
 
 #homeimage {
   display: block;
+  margin: auto;
+  max-width: 70%;
+  height: auto;
+  z-index: 2;
+}
+
+.landing {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
 #familyName {
-  top: 50%;
   text-align: center;
-  font-size: 200px;
   color: white;
-  display: table-cell;
-  vertical-align: middle;
+  display: inline-block;
+  font-size: 200px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
