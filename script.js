@@ -28,3 +28,5 @@ function displayImage(imageUrl){
     imageElement.src = "https://via.placeholder.com/150";
   });
 }
+
+//call image function with image url
