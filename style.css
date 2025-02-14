@@ -58,17 +58,28 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 #familyName {
-  text-align: center;
+  position: relative;
   color: white;
   display: inline-block;
   font-size: 200px;
-  cursor: pointer;
+  display: flex;
+  z-index: -1;
+}
+
+#nameInitials {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  z-index: -1;
 }

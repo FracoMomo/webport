@@ -1,3 +1,4 @@
+//hide nav bar on scroll
 document.addEventListener("DOMContentLoaded", function() {
   var prevScrollpos = window.scrollY;
   window.onscroll = function() {  
@@ -10,3 +11,20 @@ document.addEventListener("DOMContentLoaded", function() {
     prevScrollpos = currentScrollPos;
   }
 });
+
+function displayImage(imageUrl){
+  const imageElement = document.getElementById("image");
+
+  fetch(imageUrl)
+  .then(repsonse => {
+    if (repsonse.ok){
+      imageElement.src = imageUrl;
+    } else {
+      imageElement.src = "local image";
+    }
+  })
+
+  .catch(error => {
+    imageElement.src = "https://via.placeholder.com/150";
+  });
+}
