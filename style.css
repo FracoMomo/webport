@@ -1,3 +1,10 @@
+@font-face {
+  font-family: wolfgang;
+  src: url('fonts/Wolfgang.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding-top: 0;
@@ -46,40 +53,34 @@ ul {
   font-size: 14px;
 }
 
-#homeimage {
-  display: block;
-  margin: auto;
-  max-width: 70%;
-  height: auto;
-  z-index: 2;
-}
-
 .landing {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height */
+  position: relative;
+}
+
+#homeimage {
+  position: absolute;
+  width: 400px;
 }
 
 #familyName {
-  position: relative;
-  color: white;
-  display: inline-block;
-  font-size: 200px;
+  font-family: 'wolfgang';
+  font-weight: normal;
+  position: absolute;
   display: flex;
-  z-index: -1;
+  color: white;
+  font-size: 800px;
+  letter-spacing: 0px;
 }
 
 #nameInitials {
   position: absolute;
-  top: 150px;
-  left: 50%;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  font-size: 150px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -1;
+  color: #0B0B0D;
+  font-size: 300px;
 }
