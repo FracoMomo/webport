@@ -5,10 +5,27 @@
   font-style: normal;
 }
 
+.newsreader-font {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .caesar-dressing-regular {
   font-family: "Caesar Dressing", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.nunito-sans-font {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5,
+    "YTLC" 500;
 }
 
 * {
@@ -30,6 +47,10 @@ ul {
   margin: 0%;
 }
 
+p{
+  font-family: 'Nunito Sans';
+}
+
 .navbar {
   top: 0px;
   position: fixed;
@@ -39,12 +60,14 @@ ul {
   background: #FCFCFC;
   color: rgb(0, 0, 0);
   padding: 20px 0px;
-  letter-spacing: 3px;
   transition: top 0.3s;
   z-index: 2;
 }
 
 .navlist {
+  font-family: 'Newsreader';
+  font-size: 1vw;
+  letter-spacing: 3px;
   margin-left: 25px;
   margin-right: 25px;
   display: flex;
@@ -95,4 +118,10 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#aboutImg {
+  float: left;
+  width: 23vw;
+  margin-left: 10vw;
 }
