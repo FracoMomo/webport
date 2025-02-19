@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (prevScrollpos > currentScrollPos) {
       document.querySelector(".navbar").style.top = "0";
     } else {
-      document.querySelector(".navbar").style.top = "-60px";
+      document.querySelector(".navbar").style.top = "-4.5vw";
     }
     prevScrollpos = currentScrollPos;
   }

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: wolfgang;
+  font-family: 'wolfgang';
   src: url('fonts/Wolfgang.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -59,7 +59,7 @@ p{
   justify-content: space-between;  
   background: #FCFCFC;
   color: rgb(0, 0, 0);
-  padding: 20px 0px;
+  padding: 1.5vw 0vw;
   transition: top 0.3s;
   z-index: 2;
 }
@@ -99,7 +99,7 @@ p{
   font-weight: normal;
   position: absolute;
   display: flex;
-  color: white;
+  color: #FCFCFC;
   font-size: 55vw;
   letter-spacing: 0px;
 }
@@ -113,15 +113,57 @@ p{
 }
 
 #homeimage {
-  width: 35vw;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  width: 25vw;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.aboutMePtOne {
+  display: block;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+#aboutmetitle {
+  font-family: 'wolfgang';
+  font-weight: normal;
+  position: absolute;
+  left: 18vw;
+  display: flex;
+  color: #FCFCFC;
+  font-size: 20vw;
+  letter-spacing: 0px;
+}
+
 #aboutImg {
+  position: relative;
+  top: 25%;
   float: left;
   width: 23vw;
-  margin-left: 10vw;
+  margin-left: 7vw;
+  margin-right: 3vw;
+  z-index: -1;
+}
+
+#introfirst {
+  position: relative;
+  top: 45%;
+  font-size: 1.5vw;
+  padding-right: 20px;
+  color: #FCFCFC;
+}
+
+.greeting {
+  position: relative;
+  font-family: 'Nunito Sans';
+  font-weight: normal;
+  top: 40%;
+  display: flex;
+  color: #FCFCFC;
+  font-size: 1.75vw;
+  letter-spacing: 0px;
 }
