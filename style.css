@@ -167,3 +167,34 @@ p{
   font-size: 1.75vw;
   letter-spacing: 0px;
 }
+
+.aboutMePtTwo {
+  display: block;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+#aboutmetitletwo {
+  font-family: 'wolfgang';
+  font-weight: normal;
+  position: absolute;
+  left: 18vw;
+  display: flex;
+  color: #FCFCFC;
+  font-size: 20vw;
+  letter-spacing: 0px;
+}
+
+.containerbox {
+  width: 40vw;
+  height: 50vh;
+  background-color: #FCFCFC;
+  padding: 50px;
+  font-family: 'Nunito Sans';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
